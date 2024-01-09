@@ -1,7 +1,7 @@
 import requests
 import pandas as pd
 
-from secrets import key
+from secrets2 import key
 
 # replace the "demo" apikey below with your own key from https://www.alphavantage.co/support/#api-key
 url = 'https://www.alphavantage.co/query?function=TOP_GAINERS_LOSERS&apikey={key}'
